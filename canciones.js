@@ -39,7 +39,6 @@ const añadirCancion = (cancion) => {
         escribirCanciones('canciones.json', canciones)
     } else {
         console.log(chalk.red(`La canción ${cancion.nombre} ya existe en la lista de canciones.`))
-        //console.log(chalk.red.inverse('Nota ya existente'))
     }
 }
 
