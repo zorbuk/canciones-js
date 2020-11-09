@@ -35,7 +35,7 @@ const añadirCancion = (cancion) => {
     )
     if (indice === -1) {
         console.log(chalk.green(`Se ha añadido la cancion: ${cancion.nombre}`))
-        canciones.push({nombre: cancion.nombre, artista: cancion.artista, anyo: cancion.anyo}) // cuerpo:cuerpo
+        canciones.push({nombre: cancion.nombre, artista: cancion.artista, anyo: cancion.anyo})
         escribirCanciones('canciones.json', canciones)
     } else {
         console.log(chalk.red(`La canción ${cancion.nombre} ya existe en la lista de canciones.`))
