@@ -55,7 +55,6 @@ const leerCancion = (titulo) => {
         console.log(cancionEncontrada);
     } else {
         console.log(chalk.red(`No se ha encontrado la canción: ${titulo}`));
-        //console.log(chalk.red.inverse('No se encuentra la nota'))
     }
 }
 
