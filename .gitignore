@@ -11,7 +11,7 @@
 !.vscode/extensions.json
 *.code-workspace
 
-### VisualStudioCode Patch ###
+### VisualStudioCode Pach ###
 # Ignore all local history of files
 .history
 .ionide
