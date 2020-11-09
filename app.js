@@ -10,17 +10,18 @@
 */
 
 const canciones = require('./canciones.js');
+const chalk = require('chalk');
 
-console.log("--- AÑADIR CANCIONES --------------------------------------- ");
+console.log(chalk.black.bgWhite("--- AÑADIR CANCIONES --------------------------------------- "));
 canciones.añadirCancion({nombre: 'Linkin park', artista: 'emosidoen gañados', anyo: '2000'});
 canciones.añadirCancion({nombre: 'Dope', artista: 'Tommy Cash', anyo: '2001'});
 canciones.añadirCancion({nombre: 'Tra tra', artista: 'La rosalia', anyo: '2002'});
 canciones.añadirCancion({nombre: 'Ni idea', artista: 'C Tangana', anyo: '2004'});
-console.log("--- LEER CANCIONES --------------------------------------- ");
+console.log(chalk.black.bgWhite("--- LEER CANCIONES --------------------------------------- "));
 canciones.leerCancion(`Dope`);
-console.log("--- EDITAR ARTISTAS --------------------------------------- ");
+console.log(chalk.black.bgWhite("--- EDITAR ARTISTAS --------------------------------------- "));
 canciones.editarArtista('Linkin park', 'Chester');
-console.log("--- LISTAR CANCIONES --------------------------------------- ");
+console.log(chalk.black.bgWhite("--- LISTAR CANCIONES --------------------------------------- "));
 canciones.listarCanciones();
-console.log("--- ORDENAR CANCIONES --------------------------------------- ");
+console.log(chalk.black.bgWhite("--- ORDENAR CANCIONES --------------------------------------- "));
 canciones.ordenarCanciones('anyo');
